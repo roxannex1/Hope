@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/animesFragment"
+        android:title="all_animes"
+        android:icon="@drawable/all_animes"/>
+
+    <item
+        android:id="@+id/selectFragment"
+        android:title="select"
+        android:icon="@drawable/select_1"/>
+    <item
+        android:id="@+id/seasonsFragment"
+        android:title="by_season"
+        android:icon="@drawable/seasons"/>
+
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/base_navigation"
+    app:startDestination="@id/animesFragment2">
+
+    <fragment
+        android:id="@+id/animesFragment2"
+        android:name="com.example.myapp.ui.animes.AnimesFragment"
+        android:label="AnimesFragment" />
+    <fragment
+        android:id="@+id/seasonFragment"
+        android:name="com.example.myapp.ui.animes.select.seasons.SeasonFragment"
+        android:label="SeasonFragment" />
+    <fragment
+        android:id="@+id/selectFragment2"
+        android:name="com.example.myapp.ui.animes.select.SelectFragment"
+        android:label="SelectFragment" />
+    <fragment
+        android:id="@+id/createanimesfragment"
+        android:name="com.example.myapp.ui.animes.Createanimesfragment"
+        android:label="Createanimesfragment" />
+</navigation>

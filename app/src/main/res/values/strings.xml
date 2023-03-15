@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Myapp</string>
+    <string name="seasons_fragment">Seasons Fragment</string>
+    <string name="Seasons_fragment">Seasons Fragment</string>
+    <string name="create_new_fragment">Create_new_fragment</string>
+    <string name="animes_fragment">Animes_fragment</string>
+</resources>

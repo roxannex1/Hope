@@ -2,22 +2,26 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/base_navigation"
-    app:startDestination="@id/animesFragment2">
+    app:startDestination="@id/animesFragment">
 
     <fragment
-        android:id="@+id/animesFragment2"
+        android:id="@+id/animesFragment"
         android:name="com.example.myapp.ui.animes.AnimesFragment"
-        android:label="AnimesFragment" />
+        android:label="AnimesFragment" >
+        <action
+            android:id="@+id/action_animesFragment_to_createAnimesFragment"
+            app:destination="@id/createAnimesFragment" />
+    </fragment>
     <fragment
         android:id="@+id/seasonFragment"
         android:name="com.example.myapp.ui.animes.select.seasons.SeasonFragment"
         android:label="SeasonFragment" />
     <fragment
-        android:id="@+id/selectFragment2"
+        android:id="@+id/selectFragment"
         android:name="com.example.myapp.ui.animes.select.SelectFragment"
         android:label="SelectFragment" />
     <fragment
-        android:id="@+id/createanimesfragment"
-        android:name="com.example.myapp.ui.animes.Createanimesfragment"
-        android:label="Createanimesfragment" />
+        android:id="@+id/createAnimesFragment"
+        android:name="com.example.myapp.ui.animes.select.seasons.CreateAnimesFragment"
+        android:label="CreateAnimesFragment" />
 </navigation>

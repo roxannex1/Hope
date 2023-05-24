@@ -28,7 +28,7 @@ class AnimesFragment:Fragment() {
     }
     private fun initListeners(){
         binding?.btnFab?.setOnClickListener{
-            findNavController().navigate(R.id.createanimesfragment)
+            findNavController().navigate(R.id.createAnimesFragment)
         }
     }
 

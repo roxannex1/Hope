@@ -2,6 +2,12 @@
     <string name="app_name">Myapp</string>
     <string name="seasons_fragment">Seasons Fragment</string>
     <string name="Seasons_fragment">Seasons Fragment</string>
-    <string name="create_new_fragment">Create_new_fragment</string>
     <string name="animes_fragment">Animes_fragment</string>
+    <string name="todo">TODO</string>
+    <string name="all_animes">all_animes</string>
+    <string name="select">select</string>
+    <string name="by_season">by_season</string>
+    <string name="textview">TextView</string>
+    <string name="textview2">textView</string>
+    <string name="create_anime_fragment">Create Anime Fragment</string>
 </resources>
